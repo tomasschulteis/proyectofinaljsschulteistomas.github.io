@@ -1,0 +1,207 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+    
+} 
+
+body {background-image: url("./assets/image/fondo.jpg");
+ background-size: cover;
+ background-position: center;
+
+}
+
+button {
+    font-size: 17px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+
+}
+
+header {
+ background-image: url("./assets/image/fondouno.jpg");
+ background-size: cover;
+ background-position: center;
+ padding: 5px;
+}
+
+.page-nav { 
+    border: 1px solid black;
+    position: relative;
+}
+
+.page-nav { 
+    margin: 20px
+}
+
+.logo {
+    margin: 20px;
+    max-width: 20%;
+}
+
+.button-carrito{
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    border: 2px solid #e51919;
+    position: absolute;
+    right: 15px;
+    bottom: 2px;
+}
+
+.button-carrito:hover {
+    background-color: #f30d0d; 
+    color: white;
+    }   
+
+.producto-container h4 {
+    margin-bottom: 12px;
+    margin-left: -5px;
+    font-size: 1.5em;
+    font-weight: bold
+}
+
+.page-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.producto-container {
+    margin: 15px;
+    padding: 2px 16px;
+    position: relative;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.producto-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+.product-container img{
+    width: 300px;
+}
+
+
+.button-add {
+    transition-duration: 0.4s;
+    border: none;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 10px 15px;
+    background-color: white;
+    color: black;
+    border: 2px solid #ef1818;
+    position: absolute;
+    right: 15px;
+    bottom: 2px;
+}
+  
+.button-add:hover {
+background-color: #ff0000; 
+color: white;
+}   
+
+.modal-container {
+    display: flex;
+    background-color:0 2px 4px rgb(0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top:0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+}
+  
+.show {pointer-events: auto;
+       opacity: 1;
+  
+}
+  
+.modal {
+    background-color: #b6b8bdf8;
+    width: 491px;
+    max-width: 100%;
+    padding: -3px 4px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    text-align: right;
+  
+}
+
+hr {
+    background-color: rgb(88, 88, 88);
+}
+  
+.botondecerrar {
+    transition-duration: 0.4s;
+    font-size: 0.5em;
+    border-radius: 8px;
+    padding: 5px 5px;
+    border: none;
+}
+  
+.botondecerrar:hover {
+    background-color: #4d7fb5; 
+    color: white;
+}
+
+.preciofinal {font-size: 1.7em;
+    font-weight: bolder;
+    
+}
+
+.botondecomprar {
+    transition-duration: 0.4s;
+    font-size: 1.0em;
+    border-radius: 8px;
+    padding: 5px 5px;
+    border: none;
+    align-items: center;
+}
+  
+.botondecomprar:hover {
+    background-color: #4d7fb5; 
+    color: white;
+}
+
+.productoparacomprar {
+        border-bottom-left-radius: 3px;
+        border-top-left-radius: 3px;
+        margin: 5px 0;
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+}    
+.boton-eliminar {
+        background-color: rgb(248, 0, 0);
+        color: rgb(255, 255, 255);
+        border: none;
+        font-size: 10px;
+}
+    
+.boton-eliminar:hover {
+        cursor: pointer;
+}
+.boton-eliminar:focus {
+        outline: none;
+}    
+
+footer {background-color: #2e2e2e;
+    background-size: cover;
+background-position: center;
+padding: 30px;}
+
+h6 {font-size: 1.6 em;
+color: white;
+text-align: center;}
+
+.rojo {color: #ef1818;}
